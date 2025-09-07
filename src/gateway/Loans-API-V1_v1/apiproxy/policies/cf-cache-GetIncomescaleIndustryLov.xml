@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ResponseCache async="false" continueOnError="false" enabled="true" name="cf-cache-GetIncomescaleIndustryLov">
+    <DisplayName>cf-cache-GetIncomescaleIndustryLov</DisplayName>
+    <Properties/>
+    <CacheKey>
+        <Prefix/>
+        <KeyFragment ref="request.uri" type="string" />
+    </CacheKey>
+    <Scope>Exclusive</Scope>
+    <SkipCacheLookup>request.verb != "GET"</SkipCacheLookup>
+    <SkipCachePopulation>response.status.code &gt;= 300</SkipCachePopulation>
+    <CacheResource>Loans_GetIncomeScaleIndustryOccupation_CacheResource</CacheResource>
+    <ExcludeErrorResponse>true</ExcludeErrorResponse>
+    <SkipCachePopulation/>
+</ResponseCache>

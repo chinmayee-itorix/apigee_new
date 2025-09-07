@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ResponseCache async="false" continueOnError="false" enabled="true" name="cf-cache-GETLoanProductsList">
+    <DisplayName>cf-cache-GETLoanProductsList</DisplayName>
+    <Properties/>
+    <CacheKey>
+        <Prefix/>
+        <KeyFragment ref="request.uri" type="string" />
+        <KeyFragment ref="request.uri,request.header.tonikusertoken" type="string" />
+    </CacheKey>
+    <Scope>Exclusive</Scope>
+    <SkipCacheLookup>request.verb != "GET"</SkipCacheLookup>
+    <SkipCachePopulation>response.status.code &gt;= 300</SkipCachePopulation>
+    <CacheResource>Loans_GetLoanProducts_CacheResource</CacheResource>
+    <ExcludeErrorResponse>true</ExcludeErrorResponse>
+    <SkipCachePopulation/>
+</ResponseCache>
